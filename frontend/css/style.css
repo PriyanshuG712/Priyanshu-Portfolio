@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.logo img{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+.logo{
+    width: 20vh;
+    height: 20vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
