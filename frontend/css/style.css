@@ -46,6 +46,7 @@ body{
 .navbar ul li a{
     text-decoration: none;
     color: var(--secondary-color);
+    transition: all 0.35s ease-in-out;
 }
 .navbar ul li a:hover{
     color: var(--main-color);
@@ -129,15 +130,14 @@ body{
 }
 svg{
     stroke: var(--secondary-color);
-    transition: transform .15s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 .leetcode svg:hover{
     fill: var(--main-color);
-    transition: transform .15s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 svg:hover{
     stroke: var(--main-color);
-    transition: transform .15s ease-in-out;
 }
 
 /* Right Section */
@@ -165,10 +165,10 @@ svg:hover{
     text-decoration: none;
     color: var(--secondary-color);
     /* margin-bottom: 1.5rem; */
+    transition: all 0.35s ease-in-out;
 }
-.mailSection a:hover{
+.mailSection .mail a:hover{
     color: var(--main-color);
-    transition: transform .15s ease-in-out;
 }
 .mailSection::after {
     background-color: #a8b2d1;
@@ -250,7 +250,7 @@ svg:hover{
     position: relative;
     top: -60px;
     filter: brightness(0.7) grayscale(100%);
-    transition: filter 0.5s ease-in-out;
+    transition: filter 0.35s ease-in-out;
 }
 .imgbox img:hover{
     
