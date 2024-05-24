@@ -5,9 +5,9 @@ const hbs= require("hbs");
 const port= process.env.PORT || 8000;
 
 
-const static_path=path.join(__dirname, "../frontend");
-const template_path= path.join(__dirname, "../frontend/views");
-const partials_path= path.join(__dirname, "../frontend/partials");
+const static_path=path.join(__dirname, "./frontend");
+const template_path= path.join(__dirname, "./frontend/views");
+const partials_path= path.join(__dirname, "./frontend/partials");
 
 app.use(express.static(static_path));
 app.use(express.json());
