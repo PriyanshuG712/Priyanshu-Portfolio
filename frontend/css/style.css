@@ -247,7 +247,8 @@ svg:hover{
 } */
 .imgbox img{
     z-index: 3;
-    width: 550px;
+    /* width: 20vw; */
+    height: 100vh;
     position: relative;
     top: -60px;
     filter: brightness(0.7) grayscale(100%);
